@@ -1,2 +1,83 @@
-body{background-color: brown;}
-ul{background-color: beige;}
+/*Criando o topo do site*/
+
+#topo{
+    width:100%;
+    height:120px;
+    border:1px solid green;
+    background-color:#1673be;
+    color:#ffffff ;
+    text-transform: uppercase;
+
+}
+
+
+#logo{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#busca{
+    margin-left: 1600px;
+}
+
+nav{
+    position:absolute;
+    top:45px;
+    left:650px;
+}
+
+
+nav img{
+    width:40px;
+    height:40px;
+}
+
+
+/*Exemplo de CSS Externo*/
+
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+
+/*filho*/
+
+ul li{
+   
+     display: inline;
+     padding-left: 80px;
+     width:50px;
+     height:50px;
+}
+
+
+
+/*neto*/
+ul li a{
+  
+    text-decoration: none;
+    color:black;
+   
+}
+
+ul li a:hover{
+    background-color: coral;
+}
+    
+
+#principal{
+    width:100%;
+    height:500px;
+    border:2px solid red;
+}
+
+#rodape{
+    width:100%;
+    height:50px;
+    border:2px solid red;
+}
+
+
+
+
